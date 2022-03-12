@@ -14,7 +14,7 @@ USE_REAL_DB = True
 USE_CACHE = False
 PRODUCTION = False
 
-ALLOWED_HOSTS = ['monastiraki.herokuapp.com', 'www.mikro-monastiraki.gr'] if PRODUCTION else ['*']
+ALLOWED_HOSTS = ['monastiraki.herokuapp.com', 'www.mikro-monastiraki.com'] if PRODUCTION else ['*']
 
 
 if PRODUCTION:
